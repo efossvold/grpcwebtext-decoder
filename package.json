@@ -2,8 +2,12 @@
   "name": "grpcwebtext-decoder",
   "version": "1.0.0",
   "description": "CLI tool for parsing grpc-web-text (base64) response bodies",
-  "license": "MIT",
+  "license": "ISC",
   "author": "Erik Fossvold",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efossvold/grpcwebtext-decoder.git"
+  },
   "keywords": [
     "grpcwebtext",
     "decoder"

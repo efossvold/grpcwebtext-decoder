@@ -1,6 +1,7 @@
 .history
 .eslintignore
 .eslintrc.js
+.prettierrc
 .nvmrc
 .git
 .gitignore
