@@ -1,0 +1,43 @@
+{
+  "name": "grpcwebtext-decoder",
+  "version": "1.0.0",
+  "description": "CLI tool for parsing grpc-web-text (base64) response bodies",
+  "license": "MIT",
+  "author": "Erik Fossvold",
+  "keywords": [
+    "grpcwebtext",
+    "decoder"
+  ],
+  "main": "./dist/index.js",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "dev": "fswatch -0 ./src/* | xargs -0 -I {} ts-node src/index.ts",
+    "start": "node ./dist",
+    "build": "rm -f dist/* && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^16.3.3",
+    "@types/which": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-babel-module": "^5.3.1",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "@babel/core": "^7.17.5",
+    "ts-node": "^10.5.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "minimist": "^1.2.5",
+    "typescript": "^4.5.5",
+    "which": "^2.0.2"
+  }
+}

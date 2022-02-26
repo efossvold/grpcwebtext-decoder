@@ -1,0 +1,15 @@
+.git
+.gitignore
+.history/*
+.idea/*
+.vscode/*
+**/dist
+node_modules
+scripts/*
+
+# Disable standard JS linting
+**/*.js
+
+# "Includes"
+!eslint/*
+!.eslintrc.js

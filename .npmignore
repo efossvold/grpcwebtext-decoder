@@ -1,0 +1,12 @@
+.history
+.eslintignore
+.eslintrc.js
+.nvmrc
+.git
+.gitignore
+.npmignore
+eslint
+src
+tsconfig.json
+yarn.lock
+yarn-error.log

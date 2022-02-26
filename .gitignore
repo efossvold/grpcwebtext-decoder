@@ -1,0 +1,43 @@
+# Misc
+Thumbs.db
+.DS_Store
+*.cache
+
+# virtualenv
+env
+
+# Localhost specific configs and certificates
+ssl
+src/static
+
+# Node version manager
+.nvmrc
+
+# Editors
+.idea
+.history
+.vscode
+.favorites.json
+workspace.code-workspace
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules
+
+# nextjs/build directory
+build
+dist
+
+# environment variables
+.env.*
+
+# yarn
+yarn.lock
+yarn-error.log
+
+# typescript
+tsBuildInfoFile

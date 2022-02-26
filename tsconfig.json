@@ -1,0 +1,20 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "target": "es2016",
+    "outDir": "dist"
+  },
+  "include": ["./src"],
+  "exclude": ["**/node_modules/**/*"]
+}
